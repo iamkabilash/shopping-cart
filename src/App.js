@@ -44,8 +44,12 @@ const App = () =>{
   }
 
   const checkOut = () =>{
-    setCart([]);
-    toast('Checkout complete!');
+    if (cart.length === 0){
+      toast.warn('Cart is empty!', );
+    } else{
+      setCart([]);
+      toast('Checkout complete!');
+    }
   }
 
   useEffect(() => {
