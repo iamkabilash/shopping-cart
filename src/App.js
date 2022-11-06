@@ -36,10 +36,15 @@ const App = () =>{
   const fetchData = async() =>{
       const response = await axios.get("https://myjson.dit.upm.es/api/bins/ebp2");
       if(response){
-          setItems(response.data.photos);
-          console.log("Failed to load API, so fetching from local - data.json");
+        try{
+            setItems(response.data.photos);
+        } catch{
+            setItems(data);
+            console.log("Failed to load API, so fetching from local - data.json");
+        }
       } else{
         setItems(data);
+        console.log("Failed to load API, so fetching from local - data.json");
       }
   }
 
