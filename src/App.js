@@ -5,6 +5,7 @@ import Product from "./Components/Product";
 import CartItem from "./Components/CartItem";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import data from "./Components/data.json"
 
 const App = () =>{
 
@@ -34,7 +35,12 @@ const App = () =>{
 
   const fetchData = async() =>{
       const response = await axios.get("http://myjson.dit.upm.es/api/bins/ebp2");
-      setItems(response.data.photos);
+      if(response){
+          setItems(response.data.photos);
+          console.log("Failed to load API, so fetching from local - data.json");
+      } else{
+        setItems(data);
+      }
   }
 
   const totalPrice = () =>{
