@@ -14,7 +14,7 @@
 [![Project](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=appveyor)](#)
 
 # API used
-[RandomUser.me](https://myjson.dit.upm.es/api/bins/ebp2)
+[myjson](https://myjson.dit.upm.es/api/bins/ebp2)
 
 
 # Screenshots
