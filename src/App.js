@@ -34,7 +34,7 @@ const App = () =>{
   }
 
   const fetchData = async() =>{
-      const response = await axios.get("http://myjson.dit.upm.es/api/bins/ebp2");
+      const response = await axios.get("https://myjson.dit.upm.es/api/bins/ebp2");
       if(response){
           setItems(response.data.photos);
           console.log("Failed to load API, so fetching from local - data.json");

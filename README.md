@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/iamkabilash/shopping-cart?style=social)](#)
 
 # Running the Project
-[![Live link](https://img.shields.io/badge/Live%20link-Click%20here-blue?style=for-the-badge&logo=appveyor)](https://random-user-topaz.vercel.app/)
+[![Live link](https://img.shields.io/badge/Live%20link-Click%20here-blue?style=for-the-badge&logo=appveyor)](https://shopping-cart-beta-eight.vercel.app/)
 
 # Tech used
 [![Project](https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=appveyor)](#)
@@ -14,7 +14,7 @@
 [![Project](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=appveyor)](#)
 
 # API used
-[RandomUser.me](http://myjson.dit.upm.es/api/bins/ebp2)
+[RandomUser.me](https://myjson.dit.upm.es/api/bins/ebp2)
 
 
 # Screenshots
